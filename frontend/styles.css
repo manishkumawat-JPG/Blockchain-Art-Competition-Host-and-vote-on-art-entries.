@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+header h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+form input, form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+#artEntriesList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.artEntry {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.artEntry img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.artEntry h3 {
+    color: #2c3e50;
+}
+
+#winnerDetails p {
+    color: #e74c3c;
+    font-size: 1.2em;
+}
